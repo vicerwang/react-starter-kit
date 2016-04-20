@@ -13,7 +13,7 @@ module.exports = {
             test: /\.jsx?$/,
             loaders: [
                 'react-hot',
-                'babel?{presets:["es2015", "stage-0", "react"]}'
+                'babel?{presets:["es2015","stage-0","react"],plugins:["transform-decorators-legacy","add-module-exports"]}'
             ],
             exclude: /node_modules/
         }, {
