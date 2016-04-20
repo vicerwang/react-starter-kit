@@ -1,0 +1,45 @@
+{
+  "name": "react-starter-kit",
+  "version": "0.0.1",
+  "description": "React Starter Kit — a boilerplate build with React, Babel6 and Webpack.",
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js",
+    "dev": "webpack-dev-server --devtool source-map --hot --inline --progress --colors --config webpack.dev.config.js"
+  },
+  "keywords": [
+    "react",
+    "starter kit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicerwang/react-starter-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/vicerwang/react-starter-kit/issues"
+  },
+  "homepage": "https://github.com/vicerwang/react-starter-kit",
+  "author": "vic01724@sina.cn",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
