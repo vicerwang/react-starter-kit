@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    entry: './src/index.jsx',
+    entry: [ 'babel-polyfill', './src/index.jsx' ],
     output: {
         filename: 'bundle.js'
     },
